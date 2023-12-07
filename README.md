@@ -47,10 +47,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Installation</h3>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ - Go to portal.azure.com <br>
+ - Click Virtual machines <br>
+ - Copy the public IP address of the virtual machine you created <br>
+ - Click Start <br>
+ - Search Remote desktop connection <br> 
+ - Enter the public IP address of the virtual machine you created, then press Connect <br>
+ - Click More choices <br>
+ - Click Use a different account <br>
+ - Enter the username and password you created for the virtual machine <br>
+  
 </p>
 <br />
 
