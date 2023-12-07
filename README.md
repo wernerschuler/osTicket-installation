@@ -58,7 +58,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Enter the public IP address of the virtual machine you created, then press Connect <br>
  - Click More choices <br>
  - Click Use a different account <br>
- - Enter the username and password you created for the virtual machine <br>
+ - Enter the username and password you created for the virtual machine <br> <br>
+
+<p> <strong>Install/ enable IIS</strong> <br>
+- Right click Start <br>
+- Click Run <br>
+- Type control panel, press OK <br>
+- Click Programs <br>
+- Click Turn Windows features on or off <br>
+- Tick the checkbox for Internet Information Services and expand it <br>
+- Expand World Wide Web Services <br>
+- Expand Application Development Features <br>
+- Check CGI <br>
+- Collapse Application Development Features <br>
+- Expand Common HTTP Features <br>
+- Tick all checkboxes inside of Common HTTP Features <br>
+- Click OK <br>
+- To test that the web server is running, go to a web browser and enter 127.0.0.1 <br> <br>
+</p>
+
+<p><strong>Download and install PHP Manager for IIS:</strong> <br>
+  - Download PHP Manager for IIS at https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view <br> <br>
+</p>
+
+<p><strong>Download and install the Rewrite Module:</strong> <br>
+  - Go to the link https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view <br>
+</p>
+
+<p><strong>Create the directory C:\PHP</strong> <br>
+ - Go to File Explorer <br>
+ - Go to C: <br>
+ - Right click, New, Folder, name the folder PHP <br>
+</p>
   
 </p>
 <br />
